@@ -11,8 +11,6 @@ export const postJoin = (req, res)=>{
         res.status(400);
         res.render('join',{pageTitle:'Join'});
     }else{
-        //to do : register user
-        //to do : log user in
         res.redirect(routes.home);
     }
 };
@@ -23,7 +21,6 @@ export const postLogin = (req, res)=>{
 }
 
 export const logout = (req, res)=>{
-    //to do: process log out
     res.redirect(routes.home);
 }
 export const userDetail = (req, res)=>res.render('userDetail',{pageTitle:'UserDetail'});

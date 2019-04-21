@@ -3,13 +3,12 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
-import js from "./js";
 import { localsMiddleware } from "./middlewares";
 import userRouter from './routers/userRouter'
 import videoRouter from './routers/videoRouter'
 import globalRouter from './routers/globalRouter'
 import routes from './routes'
-//const express = require('express');
+
 const app = express();
 
 app.use(helmet());
