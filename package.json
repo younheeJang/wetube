@@ -22,6 +22,7 @@
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.17.2",
     "express": "^4.16.4",
+    "express-session": "^1.16.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "helmet": "^3.16.0",
     "mongoose": "^5.5.2",
