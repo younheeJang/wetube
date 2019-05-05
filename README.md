@@ -4,17 +4,17 @@ cloinig youtube with vanilla.js with node.js
 
 ##Pages:
 
-- [ ] Home
+- [x] Home
 - [x] Join
 - [x] Login
 - [x] Search
 
-- [ ] User Detail
-- [ ] Edit Profile
-- [ ] Change Password
+- [x] User Detail
+- [x] Edit Profile
+- [x] Change Password
 
-- [ ] Upload
-- [ ] Video Detail
-- [ ] Edit Video
+- [x] Upload
+- [x] Video Detail
+- [x] Edit Video
 
 
